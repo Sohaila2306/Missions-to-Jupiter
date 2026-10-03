@@ -1,0 +1,24 @@
+Cassini - Earth to Jupiter
+
+Launch     : 1997-10-15
+Arrival    : 2000-12-30
+Flight time: 1172 days (3.21 years)
+Path length: 17.03 AU (2547 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                1997-10-15       0    1.00 AU
+1  Venus flyby 1         1998-04-26     193    0.73 AU
+2  Venus flyby 2         1999-06-24     617    0.72 AU
+3  Earth flyby           1999-08-18     672    1.01 AU
+4  Jupiter flyby         2000-12-30    1172    5.05 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Venus flyby 1: 193 d, semi-major axis 0.84 AU, v_inf out 4.03 km/s, v_inf in 5.96 km/s
+  Venus flyby 1 -> Venus flyby 2: 424 d, semi-major axis 1.14 AU, v_inf out 6.97 km/s, v_inf in 6.96 km/s
+  Venus flyby 2 -> Earth flyby: 55 d, semi-major axis 1.65 AU, v_inf out 9.41 km/s, v_inf in 15.92 km/s
+  Earth flyby -> Jupiter flyby: 500 d, semi-major axis 4.20 AU, v_inf out 15.78 km/s, v_inf in 10.65 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  Venus flyby 1: in 5.96 / out 6.97 km/s (difference +1.01 km/s)
+  Venus flyby 2: in 6.96 / out 9.41 km/s (difference +2.46 km/s)
+  Earth flyby: in 15.92 / out 15.78 km/s (difference -0.14 km/s)
