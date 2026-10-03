@@ -1,0 +1,16 @@
+Pioneer 11 - Earth to Jupiter
+
+Launch     : 1973-04-06
+Arrival    : 1974-12-03
+Flight time: 606 days (1.66 years)
+Path length: 6.78 AU (1015 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                1973-04-06       0    1.00 AU
+1  Jupiter flyby         1974-12-03     606    4.97 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Jupiter flyby: 606 d, semi-major axis 3.56 AU, v_inf out 9.44 km/s, v_inf in 9.14 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  (single direct arc, no flybys)
