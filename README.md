@@ -11,7 +11,7 @@ Eight small Python projects, one per spacecraft, each rebuilding the Earth-to-Ju
 | [Galileo](Galileo) | Oct 1989 | Dec 1995 | Venus, Earth, Earth |
 | [Cassini](Cassini) | Oct 1997 | Dec 2000 | Venus, Venus, Earth |
 | [Juno](Juno) | Aug 2011 | Jul 2016 | two-year loop, Earth |
-| [Europa](Europa) | Oct 2024 | Apr 2030 (planned) | Mars, Earth |
+| [EuropaClipper](EuropaClipper) | Oct 2024 | Apr 2030 (planned) | Mars, Earth |
 
 To run any of them:
 
