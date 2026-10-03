@@ -4,14 +4,14 @@ Eight small Python projects, one per spacecraft, each rebuilding the Earth-to-Ju
 
 | Project | Launch | Jupiter | Route |
 |---|---|---|---|
-| [pioneer-10-jupiter](pioneer-10-jupiter) | Mar 1972 | Dec 1973 | direct |
-| [pioneer-11-jupiter](pioneer-11-jupiter) | Apr 1973 | Dec 1974 | direct |
-| [voyager-1-jupiter](voyager-1-jupiter) | Sep 1977 | Mar 1979 | direct |
-| [voyager-2-jupiter](voyager-2-jupiter) | Aug 1977 | Jul 1979 | direct |
-| [galileo-jupiter](galileo-jupiter) | Oct 1989 | Dec 1995 | Venus, Earth, Earth |
-| [cassini-jupiter](cassini-jupiter) | Oct 1997 | Dec 2000 | Venus, Venus, Earth |
-| [juno-jupiter](juno-jupiter) | Aug 2011 | Jul 2016 | two-year loop, Earth |
-| [europa-clipper-jupiter](europa-clipper-jupiter) | Oct 2024 | Apr 2030 (planned) | Mars, Earth |
+| [Pioneer10](Pioneer10) | Mar 1972 | Dec 1973 | direct |
+| [Pioneer11](Pioneer11) | Apr 1973 | Dec 1974 | direct |
+| [Voyager1](Voyager1) | Sep 1977 | Mar 1979 | direct |
+| [Voyager2](Voyager2) | Aug 1977 | Jul 1979 | direct |
+| [Galileo](Galileo) | Oct 1989 | Dec 1995 | Venus, Earth, Earth |
+| [Cassini](Cassini) | Oct 1997 | Dec 2000 | Venus, Venus, Earth |
+| [Juno](Juno) | Aug 2011 | Jul 2016 | two-year loop, Earth |
+| [Europa](Europa) | Oct 2024 | Apr 2030 (planned) | Mars, Earth |
 
 To run any of them:
 
