@@ -1,0 +1,24 @@
+Galileo - Earth to Jupiter
+
+Launch     : 1989-10-18
+Arrival    : 1995-12-07
+Flight time: 2241 days (6.14 years)
+Path length: 25.41 AU (3801 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch (STS-34)       1989-10-18       0    1.00 AU
+1  Venus flyby           1990-02-10     115    0.72 AU
+2  Earth flyby 1         1990-12-08     416    0.99 AU
+3  Earth flyby 2         1992-12-08    1147    0.99 AU
+4  Jupiter arrival       1995-12-07    2241    5.27 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch (STS-34) -> Venus flyby: 115 d, semi-major axis 0.83 AU, v_inf out 3.96 km/s, v_inf in 6.21 km/s
+  Venus flyby -> Earth flyby 1: 301 d, semi-major axis 0.99 AU, v_inf out 5.99 km/s, v_inf in 8.82 km/s
+  Earth flyby 1 -> Earth flyby 2: 731 d, semi-major axis 1.59 AU, v_inf out 8.82 km/s, v_inf in 9.05 km/s
+  Earth flyby 2 -> Jupiter arrival: 1094 d, semi-major axis 3.14 AU, v_inf out 8.90 km/s, v_inf in 5.64 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  Venus flyby: in 6.21 / out 5.99 km/s (difference -0.22 km/s)
+  Earth flyby 1: in 8.82 / out 8.82 km/s (difference +0.00 km/s)
+  Earth flyby 2: in 9.05 / out 8.90 km/s (difference -0.15 km/s)
