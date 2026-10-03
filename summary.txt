@@ -1,0 +1,16 @@
+Pioneer 10 - Earth to Jupiter
+
+Launch     : 1972-03-03
+Arrival    : 1973-12-03
+Flight time: 640 days (1.75 years)
+Path length: 6.93 AU (1036 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                1972-03-03       0    0.99 AU
+1  Jupiter flyby         1973-12-03     640    5.05 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Jupiter flyby: 640 d, semi-major axis 3.48 AU, v_inf out 9.21 km/s, v_inf in 8.78 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  (single direct arc, no flybys)
