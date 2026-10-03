@@ -1,0 +1,18 @@
+Juno - Earth to Jupiter
+
+Launch     : 2011-08-05
+Arrival    : 2016-07-05
+Flight time: 1796 days (4.92 years)
+Path length: 19.04 AU (2849 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                2011-08-05       0    1.01 AU
+1  Earth flyby           2013-10-09     796    1.00 AU
+2  Jupiter orbit insertion2016-07-05    1796    5.44 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Earth flyby: 796 d, semi-major axis 1.61 AU, v_inf out 7.32 km/s, v_inf in 7.28 km/s
+  Earth flyby -> Jupiter orbit insertion: 1000 d, semi-major axis 3.21 AU, v_inf out 10.34 km/s, v_inf in 5.47 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  Earth flyby: in 7.28 / out 10.34 km/s (difference +3.05 km/s)
