@@ -1,0 +1,16 @@
+Voyager 2 - Earth to Jupiter
+
+Launch     : 1977-08-20
+Arrival    : 1979-07-09
+Flight time: 688 days (1.88 years)
+Path length: 7.47 AU (1118 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                1977-08-20       0    1.01 AU
+1  Jupiter flyby         1979-07-09     688    5.33 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Jupiter flyby: 688 d, semi-major axis 3.70 AU, v_inf out 10.23 km/s, v_inf in 7.90 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  (single direct arc, no flybys)
