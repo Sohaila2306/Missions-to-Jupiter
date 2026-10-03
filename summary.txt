@@ -1,0 +1,16 @@
+Voyager 1 - Earth to Jupiter
+
+Launch     : 1977-09-05
+Arrival    : 1979-03-05
+Flight time: 546 days (1.49 years)
+Path length: 6.73 AU (1007 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                1977-09-05       0    1.01 AU
+1  Jupiter flyby         1979-03-05     546    5.29 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Jupiter flyby: 546 d, semi-major axis 5.10 AU, v_inf out 10.31 km/s, v_inf in 10.96 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  (single direct arc, no flybys)
