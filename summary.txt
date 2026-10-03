@@ -1,0 +1,21 @@
+Europa Clipper - Earth to Jupiter
+
+Launch     : 2024-10-14
+Arrival    : 2030-04-11
+Flight time: 2005 days (5.49 years)
+Path length: 19.34 AU (2894 million km), heliocentric
+
+#  event                 date           day  dist Sun
+0  Launch                2024-10-14       0    1.00 AU
+1  Mars flyby            2025-03-01     138    1.66 AU
+2  Earth flyby           2026-12-03     780    0.99 AU
+3  Jupiter arrival       2030-04-11    2005    5.40 AU
+
+Leg by leg (heliocentric conic between events)
+  Launch -> Mars flyby: 138 d, semi-major axis 1.85 AU, v_inf out 6.42 km/s, v_inf in 10.29 km/s
+  Mars flyby -> Earth flyby: 642 d, semi-major axis 1.60 AU, v_inf out 10.16 km/s, v_inf in 11.43 km/s
+  Earth flyby -> Jupiter arrival: 1225 d, semi-major axis 3.23 AU, v_inf out 11.60 km/s, v_inf in 5.90 km/s
+
+Flyby check (|v_inf| should match before and after an unpowered flyby)
+  Mars flyby: in 10.29 / out 10.16 km/s (difference -0.14 km/s)
+  Earth flyby: in 11.43 / out 11.60 km/s (difference +0.16 km/s)
